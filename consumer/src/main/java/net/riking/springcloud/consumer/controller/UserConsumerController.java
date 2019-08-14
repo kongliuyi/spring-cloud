@@ -21,4 +21,12 @@ public class UserConsumerController {
         return  "消费服务："+result ;
     }
 
+    // 测试@EnableDiscoveryClient,消费端可以调用服务发现
+    @GetMapping(value = "/discovery")
+    public Object discovery()
+    {
+        return restTemplate.getForObject(REST_URL_PREFIX + "/user/provider/discovery", Object.class);
+    }
+
+
 }
