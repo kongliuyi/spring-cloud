@@ -2,8 +2,6 @@
 server:
   port: 7001
 
-
-
 #eureka 基本信息配置
 eureka:
   server:

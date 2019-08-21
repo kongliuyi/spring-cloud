@@ -9,11 +9,18 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>demos</artifactId>
+    <artifactId>monitor</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>consumer-ribbon</module>
+        <module>turbine</module>
+        <module>hystrix-dashboard</module>
     </modules>
 
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+    </dependencies>
 
 </project>
