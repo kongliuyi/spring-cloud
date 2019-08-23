@@ -1,4 +1,4 @@
-package net.riking.springcloud.consumer.controller;
+package net.riking.springcloud.consumer.ribbon.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;

@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="common" />
         <module name="consumer" />
+        <module name="consumer-feign" />
         <module name="consumer-ribbon" />
         <module name="eureka" />
         <module name="eureka-cluster-7001" />
@@ -27,6 +28,7 @@
       <module name="center" options="-parameters" />
       <module name="common" options="-parameters" />
       <module name="consumer" options="-parameters" />
+      <module name="consumer-feign" options="-parameters" />
       <module name="consumer-ribbon" options="-parameters" />
       <module name="demos" options="-parameters" />
       <module name="domes" options="-parameters" />

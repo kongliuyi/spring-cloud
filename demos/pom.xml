@@ -13,7 +13,14 @@
     <packaging>pom</packaging>
     <modules>
         <module>consumer-ribbon</module>
+        <module>consumer-feign</module>
     </modules>
-
+<dependencies>
+    <!-- SpringBoot整合Web组件 -->
+    <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-web</artifactId>
+    </dependency>
+</dependencies>
 
 </project>

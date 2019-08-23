@@ -1,4 +1,4 @@
-package net.riking.springcloud.consumer;
+package net.riking.springcloud.consumer.ribbon;
 
 import java.util.Date;
 import java.util.Timer;
