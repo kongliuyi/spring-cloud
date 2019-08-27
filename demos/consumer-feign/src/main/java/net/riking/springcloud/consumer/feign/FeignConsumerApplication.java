@@ -8,8 +8,8 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 
 @SpringBootApplication
 @EnableDiscoveryClient
-@EnableFeignClients
-@EnableHystrix
+@EnableFeignClients  //开启Feign客户端
+@EnableHystrix        //开启熔断
 public class FeignConsumerApplication {
     public static void main(String[] args) {
         SpringApplication.run(FeignConsumerApplication.class, args);

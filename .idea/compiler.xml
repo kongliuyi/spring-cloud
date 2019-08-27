@@ -7,6 +7,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="common" />
+        <module name="config-client" />
+        <module name="config-server" />
         <module name="consumer" />
         <module name="consumer-feign" />
         <module name="consumer-ribbon" />
@@ -27,6 +29,8 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="center" options="-parameters" />
       <module name="common" options="-parameters" />
+      <module name="config-client" options="-parameters" />
+      <module name="config-server" options="-parameters" />
       <module name="consumer" options="-parameters" />
       <module name="consumer-feign" options="-parameters" />
       <module name="consumer-ribbon" options="-parameters" />
