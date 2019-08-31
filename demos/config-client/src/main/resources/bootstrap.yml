@@ -15,7 +15,14 @@ spring:
       discovery:
         service-id: config-server
         enabled: true
-
+  bus:
+    trace:
+      enabled: true
+  rabbitmq:
+    host: 192.168.36.133
+    port: 5672
+    username: guest
+    password: guest
 
 #客户端注册进eureka服务列表内
 eureka:
@@ -23,7 +30,12 @@ eureka:
     service-url:
       defaultZone: http://eureka7001:7001/eureka
 
+ #开启监控断点
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
 
- 
 
 

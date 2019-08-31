@@ -11,6 +11,11 @@ spring:
   application:
     #注册中心应用名称
     name: config-server
+  rabbitmq:
+    host: 192.168.36.133
+    port: 5672
+    username: guest
+    password: guest
   cloud:
     config:
       server:
@@ -21,4 +26,14 @@ spring:
           search-paths: /
       ##读取分支
       label: master
+    bus:
+      trace:
+        enabled: true
 
+
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: bus-refresh
